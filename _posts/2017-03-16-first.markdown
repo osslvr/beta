@@ -1,0 +1,20 @@
+---
+layout:     post
+title:      "First post"
+subtitle:   "This is my first blog post."
+date:       2017-03-15 21:05:00
+author:     "osslvr"
+header-img: "img/post-bg-04.jpg"
+tags: [first, welcome]
+---
+
+<h2 class="section-heading">The Final Frontier</h2>
+
+<p>This is my first post in this blog.</p>
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/post-sample-image.jpg" alt="Post Sample Image">
+</a>
+<span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
+
+<p>Stay tuned for more.</p>

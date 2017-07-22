@@ -1,0 +1,26 @@
+# Site settings
+title: osslvr - This is my personal space
+header-img: img/home-bg.jpg
+email: your-email@yourdomain.com
+copyright_name: osslvr
+description: "This is my personal space!"
+baseurl: #"/path"
+url: "https://osslvr.github.io"
+twitter_username: #SBootstrap
+github_username:  #davidtmiller
+facebook_username: # StartBootstrap
+email_username: # your-email@yourdomain.com
+
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google_tracking_id:
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+paginate_path: "blog/page:num/" #Workaround for pagination
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
